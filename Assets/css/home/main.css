@@ -1,0 +1,69 @@
+.main {
+    background-color: var(--bg-main);
+    padding-bottom: 5rem;
+}
+
+.main__titleArea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__titulo1 {
+    color: var(--color-titles);
+    padding-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.main__verTudo {
+    color: var(--cor-btnLogin);
+    padding-top: 1rem;
+    font-weight: 700;
+    font-size: .85rem;
+    padding-right: 0.7rem;
+}
+
+.main__verTudo::after {
+    content: url(/Assets/img/home/seta.svg);
+    position: absolute;
+    margin-top: 1.5px;
+}
+
+.main__produtosArea {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+}
+
+.main__produtos {
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 47.5%;
+    height: 10rem;
+    padding-bottom: 3.5rem;
+}
+
+
+.main__imgPorduto:hover {
+    filter: drop-shadow(5px 4px 9px #4f8ddead);
+    border-radius: 5px;
+    width: 10rem;
+}
+
+
+.main__tituloProduto {
+    padding-bottom: .4rem;
+}
+
+.main__preco {
+    font-weight: 700;
+    padding-bottom: .4rem;
+}
+
+.main__linkVerProduto {
+    color: var(--cor-btnLogin);
+    font-weight: 700;
+    padding-bottom: 4rem;
+}

@@ -1,0 +1,35 @@
+.cabecalho {
+    align-items: center;
+    background-color: var(--fundo-branco);
+    display: flex;
+    font-family: var(--fonte);
+    font-weight: bold;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.cabecalho__logo {
+    width: 7rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+.cabecalho__btnLogin {
+    color: var(--cor-btnLogin);
+    border: 1px solid var(--cor-btnLogin);
+    margin-top: 1rem;
+    padding: 0.7rem 1.2rem;
+    text-align: center;
+    width: 5.5rem;
+    transition: ease-in-out 200ms;
+}
+
+.cabecalho__btnLogin:hover {
+    color: #FFF;
+    background-color: var(--cor-btnLogin);
+    width: 5.7rem;
+}
+
+.cabecalho__search {
+    margin-top: 1rem;
+}

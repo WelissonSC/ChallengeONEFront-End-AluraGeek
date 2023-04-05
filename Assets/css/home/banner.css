@@ -1,0 +1,45 @@
+.banner__area {
+    background: url(/Assets/img/home/banner.jpg) no-repeat;
+    background-size: 100% 100%;
+    box-shadow: inset 0 0 9px 7px rgba(4, 4, 5, 0.352);
+    height: 12rem;
+    width: 100%;
+}
+
+.banner__informacoes {
+    color: #FFF;
+    padding: 1rem;
+    font-family: var(--fonte);
+    text-shadow: 1px 3px 7px rgba(0,0,0,0.5);
+}
+
+.banner__titulo {
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-top: 4rem;
+
+}
+
+.banner__texto {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.banner__btnConsoles {
+    color: #FFF;
+    background-color: var(--cor-btnLogin);
+    font-size: 1rem;
+    font-family: var(--fonte);
+    font-weight: bold;
+    margin: 0rem 1rem;
+    padding: 0.7rem 1.2rem;
+    text-align: center;
+    transition: ease-in-out 200ms;
+}
+
+.banner__btnConsoles:hover {
+    color: var(--cor-btnLogin);
+    background-color: #FFF;
+    font-weight: bold;
+    width: 5.7rem;
+}

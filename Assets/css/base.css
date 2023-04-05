@@ -1,0 +1,20 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+:root {
+
+    --fundo-branco: #FFF;
+    --cor-btnLogin: #2A7AE4;
+    --bg-main: #E5E5E5;
+    --fonte: 'Raleway', sans-serif;
+    --color-titles: #464646;
+    
+}
+
+
+.container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
