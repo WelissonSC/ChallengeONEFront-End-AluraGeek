@@ -4,8 +4,8 @@
 }
 
 .main__titleArea {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -43,6 +43,11 @@
     width: 47.5%;
     height: 10rem;
     padding-bottom: 3.5rem;
+}
+
+.main__imgPorduto {
+    height: 174px;
+    width: 156px;
 }
 
 
