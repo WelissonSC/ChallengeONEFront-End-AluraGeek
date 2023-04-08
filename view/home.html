@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="../Assets/css/base.css">
     <link rel="stylesheet" href="../Assets/css/home/cabecalho.css">
     <link rel="stylesheet" href="../Assets/css/home/banner.css">
-    <link rel="stylesheet" href="../Assets/css/home/main__produtos.css">
-    <link rel="stylesheet" href="../Assets/css/home/main__consoles.css">
+    <link rel="stylesheet" href="../Assets/css/home/main__produtosStyle.css">
+    <link rel="stylesheet" href="../Assets/css/home/informacoes.css">
+    <link rel="stylesheet" href="../Assets/css/home/footer.css">
 
     <title>Home | AluraGeek</title>
 </head>
@@ -22,8 +23,10 @@
 
     <header class="cabecalho container">
         <img src="../Assets/img/home/logo.svg" alt="Logo do AluraGeek" class="cabecalho__logo">
+        <input type="text" name="search" id="search" class="cabecalho__searchInput" placeholder="O que deseja encontrar?">
         <a href="#" class="cabecalho__btnLogin">Login</a>
-        <img src="../Assets/img/home/search.svg" alt="Icone de pesquisar" class="cabecalho__search">
+        
+        <button class="cabecalho__btnSearch"><img src="../Assets/img/home/search.svg" alt="Icone de pesquisar" class="cabecalho__search"></button>
     </header>
 
     <section class="banner__area">
@@ -37,105 +40,252 @@
     </section>
 
     <main class="main container">
-            <div class="main__titleArea">
-                <h1 class="main__titulo1">Star Wars</h1>
-                <a href="#" class="main__verTudo">Ver tudo</a>
+        <div class="main__titleArea">
+            <h1 class="main__tituloProdutos">Star Wars</h1>
+            <a href="#" class="main__verTudo">Ver tudo</a>
+        </div>
+
+        <div class="main__produtosArea">
+
+            <div class="main__produtos">
+                <a href="#">
+                    <img src="../Assets/img/home/produtos/capacete.svg" alts="Produto do capacte do Stormtroopers"
+                        class="main__imgPorduto">
+                </a>
+                <h4 class="main__tituloProduto">Produto XYZ</h4>
+                <p class="main__preco">R$ 60,00</p>
+                <a href="#" class="main__linkVerProduto">Ver produto</a>
             </div>
 
-            <div class="main__produtosArea">
-
-                <div class="main__produtos">
-                    <a href="#">
-                        <img src="../Assets/img/home/produtos/capacete.svg" alts="Produto do capacte do Stormtroopers"
-                            class="main__imgPorduto">
-                    </a>
-                    <h4 class="main__tituloProduto">Produto XYZ</h4>
-                    <p class="main__preco">R$ 60,00</p>
-                    <a href="#" class="main__linkVerProduto">Ver produto</a>
-                </div>
-
-                <div class="main__produtos">
-                    <a href="#">
-                        <img src="../Assets/img/home/produtos/DarthVader.svg" alt="Produto da miniatura do Dath Vader"
-                            class="main__imgPorduto"></a>
-                    <h4 class="main__tituloProduto">Produto XYZ</h4>
-                    <p class="main__preco">R$ 60,00</p>
-                    <a href="#" class="main__linkVerProduto">Ver produto</a>
-                </div>
-
-                <div class="main__produtos">
-                    <a href="#">
-                        <img src="../Assets/img/home/produtos/yoda.svg" alt="Produto da miniatura do Yoda"
-                            class="main__imgPorduto"></a>
-                    <h4 class="main__tituloProduto">Produto XYZ</h4>
-                    <p class="main__preco">R$ 60,00</p>
-                    <a href="#" class="main__linkVerProduto">Ver produto</a>
-                </div>
-
-                <div class="main__produtos">
-                    <a href="#">
-                        <img src="../Assets/img/home/produtos/Stormtroopers.svg"
-                            alt="Produto da miniatura do Stormtroopers" class="main__imgPorduto"></a>
-                    <h4 class="main__tituloProduto">Produto XYZ</h4>
-                    <p class="main__preco">R$ 60,00</p>
-                    <a href="#" class="main__linkVerProduto">Ver produto</a>
-                </div>
-
+            <div class="main__produtos">
+                <a href="#">
+                    <img src="../Assets/img/home/produtos/DarthVader.svg" alt="Produto da miniatura do Dath Vader"
+                        class="main__imgPorduto"></a>
+                <h4 class="main__tituloProduto">Produto XYZ</h4>
+                <p class="main__preco">R$ 60,00</p>
+                <a href="#" class="main__linkVerProduto">Ver produto</a>
             </div>
 
-            <!-- Parte dos consoles -->
-
-            <div class="main__titleArea-2">
-                <h1 class="main__titulo2">Consoles</h1>
-                <a href="#" class="main__verTudo-2">Ver tudo</a>
+            <div class="main__produtos">
+                <a href="#">
+                    <img src="../Assets/img/home/produtos/yoda.svg" alt="Produto da miniatura do Yoda"
+                        class="main__imgPorduto"></a>
+                <h4 class="main__tituloProduto">Produto XYZ</h4>
+                <p class="main__preco">R$ 60,00</p>
+                <a href="#" class="main__linkVerProduto">Ver produto</a>
             </div>
 
-            <div class="main__consolesArea">
-
-                <div class="main__consoles">
-                    <a href="#">
-                        <img src="../Assets/img/home/consoles/controle.svg" alts="Produto do capacte do Stormtroopers"
-                            class="main__imgConsoles">
-                    </a>
-                    <h4 class="main__tituloConsoles">Controle Xbox</h4>
-                    <p class="main__precoConsoles">R$ 60,00</p>
-                    <a href="#" class="main__linkConsoles">Ver produto</a>
-                </div>
-
-                <div class="main__consoles">
-                    <a href="#">
-                        <img src="../Assets/img/home/consoles/ps5custom.svg" alts="Produto do capacte do Stormtroopers"
-                            class="main__imgConsoles">
-                    </a>
-                    <h4 class="main__tituloConsoles">PS5 Custom</h4>
-                    <p class="main__precoConsoles">R$ 60,00</p>
-                    <a href="#" class="main__linkConsoles">Ver produto</a>
-                </div>
-
-                <div class="main__consoles">
-                    <a href="#">
-                        <img src="../Assets/img/home/consoles/supernitendo.svg" alts="Produto do capacte do Stormtroopers"
-                            class="main__imgConsoles">
-                    </a>
-                    <h4 class="main__tituloConsoles">Super Nintendo</h4>
-                    <p class="main__precoConsoles">R$ 60,00</p>
-                    <a href="#" class="main__linkConsoles">Ver produto</a>
-                </div>
-
-                <div class="main__consoles">
-                    <a href="#">
-                        <img src="../Assets/img/home/consoles/controlewi.svg" alts="Produto do capacte do Stormtroopers"
-                            class="main__imgConsoles">
-                    </a>
-                    <h4 class="main__tituloConsoles">Constrole WI</h4>
-                    <p class="main__precoConsoles">R$ 60,00</p>
-                    <a href="#" class="main__linkConsoles">Ver produto</a>
-                </div>
-                
+            <div class="main__produtos">
+                <a href="#">
+                    <img src="../Assets/img/home/produtos/Stormtroopers.svg" alt="Produto da miniatura do Stormtroopers"
+                        class="main__imgPorduto"></a>
+                <h4 class="main__tituloProduto">Produto XYZ</h4>
+                <p class="main__preco">R$ 60,00</p>
+                <a href="#" class="main__linkVerProduto">Ver produto</a>
             </div>
+
+            <div class="main__produtos">
+                <a href="#">
+                    <img src="../Assets/img/home/produtos/babyyoda.svg" alt="Produto da miniatura do Stormtroopers"
+                        class="main__imgPorduto"></a>
+                <h4 class="main__tituloProduto">Produto XYZ</h4>
+                <p class="main__preco">R$ 60,00</p>
+                <a href="#" class="main__linkVerProduto">Ver produto</a>
+            </div>
+
+            <div class="main__produtos">
+                <a href="#">
+                    <img src="../Assets/img/home/produtos/homemdepreto.svg" alt="Produto da miniatura do Stormtroopers"
+                        class="main__imgPorduto"></a>
+                <h4 class="main__tituloProduto">Produto XYZ</h4>
+                <p class="main__preco">R$ 60,00</p>
+                <a href="#" class="main__linkVerProduto">Ver produto</a>
+            </div>
+
+        </div>
+
+        <!-- Parte dos consoles -->
+
+        <div class="main__titleArea">
+            <h1 class="main__tituloProdutos">Consoles</h1>
+            <a href="#" class="main__verTudo">Ver tudo</a>
+        </div>
+
+        <div class="main__produtosArea">
+
+            <div class="main__produtos">
+                <a href="#">
+                    <img src="../Assets/img/home/consoles/controle.svg" alts="Produto do capacte do Stormtroopers"
+                        class="main__imgPorduto">
+                </a>
+                <h4 class="main__tituloProduto">Controle Xbox</h4>
+                <p class="main__preco">R$ 60,00</p>
+                <a href="#" class="main__linkVerProduto">Ver produto</a>
+            </div>
+
+            <div class="main__produtos">
+                <a href="#">
+                    <img src="../Assets/img/home/consoles/ps5custom.svg" alts="Produto do capacte do Stormtroopers"
+                        class="main__imgPorduto">
+                </a>
+                <h4 class="main__tituloProduto">PS5 Custom</h4>
+                <p class="main__preco">R$ 60,00</p>
+                <a href="#" class="main__linkVerProduto">Ver produto</a>
+            </div>
+
+            <div class="main__produtos">
+                <a href="#">
+                    <img src="../Assets/img/home/consoles/supernitendo.svg" alts="Produto do capacte do Stormtroopers"
+                        class="main__imgPorduto">
+                </a>
+                <h4 class="main__tituloProduto">Super Nintendo</h4>
+                <p class="main__preco">R$ 60,00</p>
+                <a href="#" class="main__linkVerProduto">Ver produto</a>
+            </div>
+
+            <div class="main__produtos">
+                <a href="#">
+                    <img src="../Assets/img/home/consoles/controlewi.svg" alts="Produto do capacte do Stormtroopers"
+                        class="main__imgPorduto">
+                </a>
+                <h4 class="main__tituloProduto">Constrole WI</h4>
+                <p class="main__preco">R$ 60,00</p>
+                <a href="#" class="main__linkVerProduto">Ver produto</a>
+            </div>
+
+            <div class="main__produtos">
+                <a href="#">
+                    <img src="../Assets/img/home/consoles/xboxseriess.svg" alts="Produto do capacte do Stormtroopers"
+                        class="main__imgPorduto">
+                </a>
+                <h4 class="main__tituloProduto">Constrole WI</h4>
+                <p class="main__preco">R$ 60,00</p>
+                <a href="#" class="main__linkVerProduto">Ver produto</a>
+            </div>
+
+            <div class="main__produtos">
+                <a href="#">
+                    <img src="../Assets/img/home/consoles/gameboy.svg" alts="Produto do capacte do Stormtroopers"
+                        class="main__imgPorduto">
+                </a>
+                <h4 class="main__tituloProduto">Constrole WI</h4>
+                <p class="main__preco">R$ 60,00</p>
+                <a href="#" class="main__linkVerProduto">Ver produto</a>
+            </div>
+
+        </div>
+
+        <!-- parte dos diversos -->
+
+        <div class="main__titleArea">
+            <h1 class="main__tituloProdutos">Diversos</h1>
+            <a href="#" class="main__verTudo">Ver tudo</a>
+        </div>
+
+        <div class="main__produtosArea">
+
+            <div class="main__produtos">
+                <a href="#">
+                    <img src="../Assets/img/home/diversos/camisaAtari.svg" alts="Produto do capacte do Stormtroopers"
+                        class="main__imgPorduto">
+                </a>
+                <h4 class="main__tituloProduto">Camisa Atari</h4>
+                <p class="main__preco">R$ 60,00</p>
+                <a href="#" class="main__linkVerProduto">Ver produto</a>
+            </div>
+
+            <div class="main__produtos">
+                <a href="#">
+                    <img src="../Assets/img/home/diversos/camisaSnes.svg" alts="Produto do capacte do Stormtroopers"
+                        class="main__imgPorduto">
+                </a>
+                <h4 class="main__tituloProduto">Camisa Snes</h4>
+                <p class="main__preco">R$ 60,00</p>
+                <a href="#" class="main__linkVerProduto">Ver produto</a>
+            </div>
+
+            <div class="main__produtos">
+                <a href="#">
+                    <img src="../Assets/img/home/diversos/miniSonic.svg" alts="Produto do capacte do Stormtroopers"
+                        class="main__imgPorduto">
+                </a>
+                <h4 class="main__tituloProduto">Mini Sonic</h4>
+                <p class="main__preco">R$ 60,00</p>
+                <a href="#" class="main__linkVerProduto">Ver produto</a>
+            </div>
+
+            <div class="main__produtos">
+                <a href="#">
+                    <img src="../Assets/img/home/diversos/relogioretro.svg" alts="Produto do capacte do Stormtroopers"
+                        class="main__imgPorduto">
+                </a>
+                <h4 class="main__tituloProduto">Relógio Retrô </h4>
+                <p class="main__preco">R$ 60,00</p>
+                <a href="#" class="main__linkVerProduto">Ver produto</a>
+            </div>
+
+            <div class="main__produtos">
+                <a href="#">
+                    <img src="../Assets/img/home/diversos/vr.svg" alts="Produto do capacte do Stormtroopers"
+                        class="main__imgPorduto">
+                </a>
+                <h4 class="main__tituloProduto">Relógio Retrô </h4>
+                <p class="main__preco">R$ 60,00</p>
+                <a href="#" class="main__linkVerProduto">Ver produto</a>
+            </div>
+
+            <div class="main__produtos">
+                <a href="#">
+                    <img src="../Assets/img/home/diversos/usaopikachu.svg" alts="Produto do capacte do Stormtroopers"
+                        class="main__imgPorduto">
+                </a>
+                <h4 class="main__tituloProduto">Relógio Retrô </h4>
+                <p class="main__preco">R$ 60,00</p>
+                <a href="#" class="main__linkVerProduto">Ver produto</a>
+            </div>
+
+        </div>
 
 
     </main>
+
+    <!-- informações area -->
+    <section class="informacoes container">
+        <div class="informacoes__menu">
+            <img src="../Assets/img/home/logo.svg" alt="Logo do AluraGeek" class="informacoes__logo">
+
+            <ul class="informacoes__ul">
+                <li class="informacoes__itens"><a href="#">Quem somos nós</a></li>
+                <li class="informacoes__itens"><a href="#">Programa fidelidade</a></li>
+                <li class="informacoes__itens"><a href="#">Política de privacidade</a></li>
+                <li class="informacoes__itens"><a href="#">Nossas lojas</a></li>
+                <li class="informacoes__itens"><a href="#">Quero ser franqueado</a></li>
+                <li class="informacoes__itens"><a href="#">Anuncie aqui</a></li>
+
+            </ul>
+        </div>
+ 
+            <!-- fomulário  -->
+
+            <form action="#" method="post" class="form">
+                <h4 class="form__titulo">Fale conosco</h4>
+
+                <label for="nome" class="form__lbl">Nome</label>
+                <input type="text" name="nome" id="nome" class="form__nameField" placeholder="seu nome">
+
+                <textarea name="message" id="message" cols="30" rows="5" class="form_message" placeholder="Escreva sua mensagem"></textarea></textarea>
+
+                <button type="submit" class="form__btnEnviar">Enviar mensagem</button>
+
+            </form>
+
+
+    </section>
+
+    <footer class="footer">
+        <p>Desenvolvido por Welisson</p>
+        <p>2023</p>
+    </footer>
 
 </body>
 

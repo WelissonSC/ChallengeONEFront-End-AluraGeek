@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Assets/css/reset.css">
+    <link rel="stylesheet" href="../Assets/css/base.css">
+    <link rel="stylesheet" href="/Assets/css/login/header.css">
+    <link rel="stylesheet" href="/Assets/css/home/cabecalho.css">
+    <link rel="stylesheet" href="/Assets/css/login/main.css">
+    <link rel="stylesheet" href="/Assets/css/home/informacoes.css">
+
+    <link rel="stylesheet" href="/Assets/css/home/footer.css">
+
+
+    <title>Login | AluraGeek</title>
+</head>
+
+<body>
+
+    <header class="cabecalho container">
+        <img src="../Assets/img/home/logo.svg" alt="Logo do AluraGeek" class="cabecalho__logo">
+        <input type="text" name="search" id="search" class="cabecalho__searchInput" placeholder="O que deseja encontrar?">
+        <a href="#" class="cabecalho__btnLogin">Login</a>
+        
+        <button class="cabecalho__btnSearch"><img src="../Assets/img/home/search.svg" alt="Icone de pesquisar" class="cabecalho__search"></button>
+    </header>
+
+
+    <main class="main container">
+        <h1 class="main__title">Iniciar Sessão</h1>
+
+        <input type="email" name="email" id="email" class="main__email" placeholder="Escreva seu email" autofocus>
+        <input type="password" name="password" id="password" class="main__fielPassword" placeholder="Escreva sua senha">
+        
+        <button type="submit" class="main__entrar">Entrar</button>
+    </main>
+
+    <section class="informacoes container">
+        <div class="informacoes__menu">
+            <img src="../Assets/img/home/logo.svg" alt="Logo do AluraGeek" class="informacoes__logo">
+
+            <ul class="informacoes__ul">
+                <li class="informacoes__itens"><a href="#">Quem somos nós</a></li>
+                <li class="informacoes__itens"><a href="#">Programa fidelidade</a></li>
+                <li class="informacoes__itens"><a href="#">Política de privacidade</a></li>
+                <li class="informacoes__itens"><a href="#">Nossas lojas</a></li>
+                <li class="informacoes__itens"><a href="#">Quero ser franqueado</a></li>
+                <li class="informacoes__itens"><a href="#">Anuncie aqui</a></li>
+
+            </ul>
+        </div>
+ 
+            <!-- fomulário  -->
+
+            <form action="#" method="post" class="form">
+                <h4 class="form__titulo">Fale conosco</h4>
+
+                <label for="nome" class="form__lbl">Nome</label>
+                <input type="text" name="nome" id="nome" class="form__nameField" placeholder="seu nome">
+
+                <textarea name="message" id="message" cols="30" rows="5" class="form_message" placeholder="Escreva sua mensagem"></textarea></textarea>
+
+                <button type="submit" class="form__btnEnviar">Enviar mensagem</button>
+
+            </form>
+
+
+    </section>
+
+
+    <footer class="footer">
+        <p>Desenvolvido por Welisson</p>
+        <p>2023</p>
+    </footer>
+
+</body>
+
+</html>

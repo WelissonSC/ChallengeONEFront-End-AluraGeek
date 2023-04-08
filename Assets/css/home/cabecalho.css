@@ -30,6 +30,54 @@
     width: 5.7rem;
 }
 
+.cabecalho__btnSearch {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.cabecalho__searchInput {
+    border-radius: 20px;
+    border: none;
+    background-color: #F5F5F5;
+    display: none;
+    margin-top: 1rem;
+    margin-left: 0rem;
+    width: 11rem;
+    padding: 0.5rem;
+}
+
+
 .cabecalho__search {
     margin-top: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .cabecalho {
+        padding-bottom: .5rem;
+    }
+
+    .cabecalho__searchInput {
+        background-image: url(/Assets/img/home/search.svg);
+        background-repeat: no-repeat;
+        background-position: center right;
+        display: block;
+        width: 18rem;
+        padding: 0.6rem;
+        margin-right: 7rem;
+    }
+
+
+    .cabecalho__btnSearch {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho__searchInput {
+        display: flex;
+        padding: 8px 16px;
+        gap: 8px;
+    }
 }

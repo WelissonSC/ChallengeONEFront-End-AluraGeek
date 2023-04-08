@@ -1,0 +1,108 @@
+.main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25%;
+}
+
+.main__title {
+    color: var(--color-titles);
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+
+.main__email {
+    background-color: #FFF;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    padding: .6rem;
+    width: 80%;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.53);
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.53);
+}
+
+.main__email:focus {
+    box-shadow: 0px 4px 6px 0px rgba(31, 80, 204, 0.53);
+    border: none;
+}
+
+.main__fielPassword {
+    background-color: #FFF;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    padding: .6rem;
+    width: 80%;
+
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.53);
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.53);
+}
+
+.main__fielPassword:focus {
+    box-shadow: 0px 4px 6px 0px rgba(31, 80, 204, 0.53);
+    border: none;
+}
+
+.main__entrar {
+    background-color: var(--cor-btnLogin);
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    padding: .8rem;
+    transition: ease-in-out 500ms;
+    width: 7rem;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.53);
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.53);
+}
+
+.main__entrar:hover {
+    background-color: #FFF;
+    color: var(--cor-btnLogin);
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        padding-top: 10%;
+    }
+    .main__email {
+        padding: 0.85rem;
+        margin-bottom: 2rem;
+        width: 55%;
+    }
+
+    .main__fielPassword {
+        padding: 0.85rem;
+        width: 55%;
+        margin-bottom: 2rem;
+    }
+
+    .main__entrar {
+        width: 9rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main__email {
+        padding: .9rem;
+        width: 40%;
+    }
+
+    .main__fielPassword {
+        padding: .9rem;
+        width: 40%;
+    }
+
+    .main__entrar {
+        width: 43%;
+        margin-bottom: 2rem;
+    }
+}
