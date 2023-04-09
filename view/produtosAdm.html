@@ -10,13 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../Assets/css/reset.css">
     <link rel="stylesheet" href="../Assets/css/base.css">
-    <link rel="stylesheet" href="/Assets/css/login/header.css">
-    <link rel="stylesheet" href="/Assets/css/baseStyle.css">
-    <link rel="stylesheet" href="/Assets/css/login/main.css">
-    <link rel="stylesheet" href="/Assets/css/home/informacoes.css">
+    <link rel="stylesheet" href="../Assets/css/baseStyle.css">
+    <link rel="stylesheet" href="/Assets/css/produtosAdm/produtos__adm.css">
 
 
-    <title>Login | AluraGeek</title>
+    <title>Produtos | AluraGeek</title>
+
 </head>
 
 <body>
@@ -24,19 +23,33 @@
     <header class="cabecalho container">
         <img src="../Assets/img/home/logo.svg" alt="Logo do AluraGeek" class="cabecalho__logo">
         <input type="text" name="search" id="search" class="cabecalho__searchInput" placeholder="O que deseja encontrar?">
-        <a href="#" class="cabecalho__btnLogin">Login</a>
+        <a href="#" class="cabecalho__btnAdm">Menu administrador</a>
         
         <button class="cabecalho__btnSearch"><img src="../Assets/img/home/search.svg" alt="Icone de pesquisar" class="cabecalho__search"></button>
     </header>
 
+    <main class="Main__produtos container">
 
-    <main class="main container">
-        <h1 class="main__title">Iniciar Sessão</h1>
-
-        <input type="email" name="email" id="email" class="main__email" placeholder="Escreva seu email" autofocus>
-        <input type="password" name="password" id="password" class="main__fielPassword" placeholder="Escreva sua senha">
+        <h1 class="main__title">Adicionar novo produto</h1>
         
-        <button type="submit" class="main__entrar">Entrar</button>
+        <form action="#" class="produtos__form container">
+
+            <label for="url" class="lbl__formUrl">URL da imagem</label>
+            <input type="text" name="url" id="url" class="input__form">
+            
+            <label for="categoria" class="lbl__formCategory">Categoria</label>
+            <input type="text" name="categoria" id="categoria" class="input__form">
+            
+            <label for="name" class="lbl__formName">Nome do produto</label>
+            <input type="text" name="name" id="name" class="input__form">
+
+            <textarea name="message" id="message" cols="35" rows="5" class="descricao__product" placeholder="Descrição do produto"></textarea></textarea>
+
+            <button type="submit" class="form__addProduct">Adicionar produto</button>
+
+            
+        </form>
+
     </main>
 
     <section class="informacoes container">
@@ -71,44 +84,12 @@
 
     </section>
 
-    <section class="informacoes container">
-        <div class="informacoes__menu">
-            <img src="../Assets/img/home/logo.svg" alt="Logo do AluraGeek" class="informacoes__logo">
-
-            <ul class="informacoes__ul">
-                <li class="informacoes__itens"><a href="#">Quem somos nós</a></li>
-                <li class="informacoes__itens"><a href="#">Programa fidelidade</a></li>
-                <li class="informacoes__itens"><a href="#">Política de privacidade</a></li>
-                <li class="informacoes__itens"><a href="#">Nossas lojas</a></li>
-                <li class="informacoes__itens"><a href="#">Quero ser franqueado</a></li>
-                <li class="informacoes__itens"><a href="#">Anuncie aqui</a></li>
-
-            </ul>
-        </div>
- 
-            <!-- fomulário  -->
-
-            <form action="#" method="post" class="form">
-                <h4 class="form__titulo">Fale conosco</h4>
-
-                <label for="nome" class="form__lbl">Nome</label>
-                <input type="text" name="nome" id="nome" class="form__nameField" placeholder="seu nome">
-
-                <textarea name="message" id="message" cols="30" rows="5" class="form_message" placeholder="Escreva sua mensagem"></textarea></textarea>
-
-                <button type="submit" class="form__btnEnviar">Enviar mensagem</button>
-
-            </form>
-
-
-    </section>
-
-
-
     <footer class="footer">
         <p>Desenvolvido por Welisson</p>
         <p>2023</p>
     </footer>
+
+
 
 </body>
 

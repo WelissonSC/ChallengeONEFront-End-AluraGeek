@@ -1,0 +1,157 @@
+.cabecalho__btnAdm {
+    color: var(--cor-btnLogin);
+    border: 1px solid var(--cor-btnLogin);
+    font-size: .8rem;
+    margin-top: 1rem;
+    padding: 0.7rem 1.2rem;
+    text-align: center;
+    width: 8rem;
+    transition: ease-in-out 200ms;
+}
+
+.cabecalho__btnAdm:hover {
+    color: #FFF;
+    background-color: var(--cor-btnLogin);
+    width: 5.7rem;
+}
+
+.Main__produtos {
+    background-color: var(--bg-main);
+}
+
+.main__title {
+    color: var(--color-titles);
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 1.5rem 0rem 1.5rem .5rem;
+}
+
+.produtos__form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lbl__formUrl {
+    color: #A2A2A2;
+    font-size: 12px;
+    position: absolute;
+    margin-top: .2rem;
+    margin-right: 12rem;
+}
+
+.lbl__formCategory {
+    color: #A2A2A2;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 5rem;
+    margin-right: 14rem;
+}
+
+.lbl__formName {
+    color: #A2A2A2;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 10rem;
+    margin-right: 11rem;
+}
+
+.input__form {
+    margin-bottom: 1.5rem;
+    border: none;
+    padding: 1.2rem;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.53);
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.53);
+}
+
+.input__form:focus {
+    border-bottom: 2px solid #2A7AE4;
+    outline: none;
+}
+
+.descricao__product {
+    background-color: #FFF;
+    border: none;
+    margin-top: 1rem;
+    padding: 1.3rem 0.6rem 1rem 1rem;
+    resize: none;
+    outline: none;
+    width: 105%;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.53);
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.53);
+}
+
+.descricao__product:focus {
+    border-bottom: 2px solid #2A7AE4;
+    outline: none;
+}
+
+.form__addProduct {
+    background-color: var(--cor-btnLogin);
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    transition: ease-in-out 500ms;
+    width: 115%;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.53);
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.53);
+}
+
+@media screen and (min-width: 768px) {
+    .lbl__formUrl {
+        margin-right: 70%;
+    }
+
+    .lbl__formCategory {
+        margin-right: 75%;
+    }
+
+    .lbl__formName {
+        margin-right: 70%;
+    }
+
+    .descricao__product {
+        width: 102%;
+    }
+
+    .form__addProduct {
+        width: 106%;
+    }
+
+    .main__title {
+        padding: 1.5rem 0rem 1.5rem 1rem; 
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Main__produtos {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    .lbl__formUrl {
+        margin-right: 43%;
+    }
+
+    .lbl__formCategory {
+        margin-right: 46%;
+    }
+
+    .lbl__formName {
+        margin-right: 43%;
+    }
+
+    .main__title {
+        padding: 1.5rem 0rem 1.5rem 4.5rem; 
+    }
+}
